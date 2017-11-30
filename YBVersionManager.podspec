@@ -29,5 +29,6 @@ s.frameworks = "UIKit", "CoreGraphics", "Foundation"
 s.requires_arc = true
 s.dependency 'YBBaseDefine', '~>1.0.1'
 s.dependency 'YBBaseCategory', '~>1.0.1'
+s.dependency 'YBKeychainManager', '~>1.0.1'
 
 end

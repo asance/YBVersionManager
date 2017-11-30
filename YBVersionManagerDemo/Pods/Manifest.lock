@@ -1,0 +1,18 @@
+PODS:
+  - YBBaseCategory (1.0.1)
+  - YBBaseDefine (1.0.1)
+  - YBKeychainManager (1.0.1)
+
+DEPENDENCIES:
+  - YBBaseCategory (~> 1.0.1)
+  - YBBaseDefine (~> 1.0.1)
+  - YBKeychainManager (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  YBBaseCategory: 513b0137d12fb39309b1967a3518b9904714bb48
+  YBBaseDefine: 71964439eb5d8d675209b375766c418ee2462912
+  YBKeychainManager: a800c688a78e25b982ddbe11eb9344b184272563
+
+PODFILE CHECKSUM: cde2362730540b538b823ae2338f5c062ad2eeae
+
+COCOAPODS: 1.2.1

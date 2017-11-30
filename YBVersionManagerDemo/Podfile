@@ -1,0 +1,9 @@
+platform:ios, '8.0'
+
+target 'YBVersionManagerDemo' do
+
+pod 'YBBaseDefine', '~>1.0.1'
+pod 'YBBaseCategory', '~>1.0.1'
+pod 'YBKeychainManager', '~>1.0.1'
+
+end

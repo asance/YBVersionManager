@@ -26,9 +26,9 @@ s.source       = { :git => "https://github.com/asance/YBVersionManager.git", :ta
 s.source_files  =  "YBVersionManagerDemo/YBVersionManagerDemo/YBVersionManager/*.{h,m}"
 s.resources = "YBVersionManagerDemo/YBVersionManagerDemo/YBVersionManager/Resources/*.png"
 s.frameworks = "UIKit", "CoreGraphics", "Foundation"
-s.requires_arc = true
 s.dependency 'YBBaseDefine', '~>1.0.1'
 s.dependency 'YBBaseCategory', '~>1.0.1'
 s.dependency 'YBKeychainManager', '~>1.0.1'
+s.requires_arc = true
 
 end

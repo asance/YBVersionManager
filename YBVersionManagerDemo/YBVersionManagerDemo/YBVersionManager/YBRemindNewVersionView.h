@@ -7,24 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YBObjectDefine.h"
 
 @class YBCloseButton;
 
 @interface YBRemindNewVersionView : UIView
-YBPropertyStrongSetter(UIView, backgroundView);
-YBPropertyStrongSetter(UIView, contentView);
+@property(strong, nonatomic) UIView *backgroundView;
+@property(strong, nonatomic) UIView *contentView;
 
-YBPropertyStrongSetter(UIView, whiteBGView);
-YBPropertyStrongSetter(UIImageView, imageView);
-YBPropertyStrongSetter(UILabel, titleLabel);
+@property(strong, nonatomic) UIView *whiteBGView;
+@property(strong, nonatomic) UIImageView *imageView;
+@property(strong, nonatomic) UILabel *titleLabel;
 
-YBPropertyStrongSetter(YBCloseButton, cancelButton);
-YBPropertyStrongSetter(UIView, cancelLineView);
-YBPropertyStrongSetter(UIButton, confirmButton);
+@property(strong, nonatomic) YBCloseButton *cancelButton;
+@property(strong, nonatomic) UIView *cancelLineView;
+@property(strong, nonatomic) UIButton *confirmButton;
 
-YBPropertyStrongSetter(UITableView, myTableView);
-YBPropertyStrongSetter(NSMutableArray, myDataSource);
+@property(strong, nonatomic) UITableView *myTableView;
+@property(strong, nonatomic) NSMutableArray *myDataSource;
 
 @property(copy, nonatomic) void(^onCancelBlock)(void);
 @property(copy, nonatomic) void(^onConfirmBlock)(void);

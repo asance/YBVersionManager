@@ -9,30 +9,29 @@
 #define YB_OPEN_SEVER_CHECK     0
 
 #import <Foundation/Foundation.h>
-#import "YBObjectDefine.h"
 
 @interface YBVersionManager : NSObject
-YBPropertyAssignSetter(BOOL, didCheckVersion);
+@property(assign, nonatomic) BOOL didCheckVersion;
 /**return name of company*/
-YBPropertyCopySetter(NSString, company);
+@property(copy, nonatomic) NSString *company;
 /**return name of app display*/
-YBPropertyCopySetter(NSString, displayName);
+@property(copy, nonatomic) NSString *displayName;
 /**return name of loan authorization agreement*/
-YBPropertyCopySetter(NSString, loanAuthorizationAgreementName);
+@property(copy, nonatomic) NSString *loanAuthorizationAgreementName;
 /**return hotline of company*/
-YBPropertyCopySetter(NSString, hotline);
+@property(copy, nonatomic) NSString *hotline;
 /**return wei xin gong zhong hao of company*/
-YBPropertyCopySetter(NSString, wxgzh);
+@property(copy, nonatomic) NSString *wxgzh;
 /**return zhi fu bao zhang hao of company*/
-YBPropertyCopySetter(NSString, zfbzh);
+@property(copy, nonatomic) NSString *zfbzh;
 /**return production environment download url*/
-YBPropertyCopySetter(NSString, productionEnvUpdateURL);
+@property(copy, nonatomic) NSString *productionEnvUpdateURL;
 /**return test environment download url*/
-YBPropertyCopySetter(NSString, testEnvUpdateURL);
+@property(copy, nonatomic) NSString *testEnvUpdateURL;
 /**return production environment Appraise url*/
-YBPropertyCopySetter(NSString, productionEnvAppraiseURL);
+@property(copy, nonatomic) NSString *productionEnvAppraiseURL;
 /**return APPID*/
-YBPropertyCopySetter(NSString, APPID);
+@property(copy, nonatomic) NSString *APPID;
 
 /**单例对象*/
 + (instancetype)shareInstance;
